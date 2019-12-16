@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEF867923A647BB00A50888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF867823A647BB00A50888 /* AppDelegate.swift */; };
+		DEEF867B23A647BB00A50888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF867A23A647BB00A50888 /* SceneDelegate.swift */; };
+		DEEF867D23A647BB00A50888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF867C23A647BB00A50888 /* ViewController.swift */; };
+		DEEF868023A647BB00A50888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEF867E23A647BB00A50888 /* Main.storyboard */; };
+		DEEF868223A647BC00A50888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEF868123A647BC00A50888 /* Assets.xcassets */; };
+		DEEF868523A647BC00A50888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEF868323A647BC00A50888 /* LaunchScreen.storyboard */; };
+		DEEF869223A66E7500A50888 /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEEF868E23A66E7500A50888 /* DS-DIGIT.TTF */; };
+		DEEF869323A66E7500A50888 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEEF868F23A66E7500A50888 /* DS-DIGIB.TTF */; };
+		DEEF869423A66E7500A50888 /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEEF869023A66E7500A50888 /* DS-DIGII.TTF */; };
+		DEEF869523A66E7500A50888 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEEF869123A66E7500A50888 /* DS-DIGI.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEEF867523A647BB00A50888 /* digitalclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digitalclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEF867823A647BB00A50888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEF867A23A647BB00A50888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEEF867C23A647BB00A50888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEF867F23A647BB00A50888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEF868123A647BC00A50888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEF868423A647BC00A50888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEF868623A647BC00A50888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEF868E23A66E7500A50888 /* DS-DIGIT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIT.TTF"; sourceTree = "<group>"; };
+		DEEF868F23A66E7500A50888 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		DEEF869023A66E7500A50888 /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
+		DEEF869123A66E7500A50888 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEF867223A647BB00A50888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEF866C23A647BA00A50888 = {
+			isa = PBXGroup;
+			children = (
+				DEEF867723A647BB00A50888 /* digitalclock */,
+				DEEF867623A647BB00A50888 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEF867623A647BB00A50888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF867523A647BB00A50888 /* digitalclock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEF867723A647BB00A50888 /* digitalclock */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF868C23A66E5900A50888 /* Support Files */,
+				DEEF867823A647BB00A50888 /* AppDelegate.swift */,
+				DEEF867A23A647BB00A50888 /* SceneDelegate.swift */,
+				DEEF867C23A647BB00A50888 /* ViewController.swift */,
+				DEEF867E23A647BB00A50888 /* Main.storyboard */,
+				DEEF868123A647BC00A50888 /* Assets.xcassets */,
+				DEEF868323A647BC00A50888 /* LaunchScreen.storyboard */,
+				DEEF868623A647BC00A50888 /* Info.plist */,
+			);
+			path = digitalclock;
+			sourceTree = "<group>";
+		};
+		DEEF868C23A66E5900A50888 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF868D23A66E6300A50888 /* Fonts */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		DEEF868D23A66E6300A50888 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF869123A66E7500A50888 /* DS-DIGI.TTF */,
+				DEEF868F23A66E7500A50888 /* DS-DIGIB.TTF */,
+				DEEF869023A66E7500A50888 /* DS-DIGII.TTF */,
+				DEEF868E23A66E7500A50888 /* DS-DIGIT.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEF867423A647BB00A50888 /* digitalclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEF868923A647BC00A50888 /* Build configuration list for PBXNativeTarget "digitalclock" */;
+			buildPhases = (
+				DEEF867123A647BB00A50888 /* Sources */,
+				DEEF867223A647BB00A50888 /* Frameworks */,
+				DEEF867323A647BB00A50888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = digitalclock;
+			productName = digitalclock;
+			productReference = DEEF867523A647BB00A50888 /* digitalclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEF866D23A647BA00A50888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Waleed Afifi";
+				TargetAttributes = {
+					DEEF867423A647BB00A50888 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = DEEF867023A647BA00A50888 /* Build configuration list for PBXProject "digitalclock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEF866C23A647BA00A50888;
+			productRefGroup = DEEF867623A647BB00A50888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEF867423A647BB00A50888 /* digitalclock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEF867323A647BB00A50888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEF869323A66E7500A50888 /* DS-DIGIB.TTF in Resources */,
+				DEEF868523A647BC00A50888 /* LaunchScreen.storyboard in Resources */,
+				DEEF869223A66E7500A50888 /* DS-DIGIT.TTF in Resources */,
+				DEEF868223A647BC00A50888 /* Assets.xcassets in Resources */,
+				DEEF869423A66E7500A50888 /* DS-DIGII.TTF in Resources */,
+				DEEF869523A66E7500A50888 /* DS-DIGI.TTF in Resources */,
+				DEEF868023A647BB00A50888 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEF867123A647BB00A50888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEF867D23A647BB00A50888 /* ViewController.swift in Sources */,
+				DEEF867923A647BB00A50888 /* AppDelegate.swift in Sources */,
+				DEEF867B23A647BB00A50888 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEEF867E23A647BB00A50888 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEF867F23A647BB00A50888 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEF868323A647BC00A50888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEF868423A647BC00A50888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEF868723A647BC00A50888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEEF868823A647BC00A50888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEF868A23A647BC00A50888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9445UT3G2U;
+				INFOPLIST_FILE = digitalclock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afifitech.digitalclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEF868B23A647BC00A50888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9445UT3G2U;
+				INFOPLIST_FILE = digitalclock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afifitech.digitalclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEF867023A647BA00A50888 /* Build configuration list for PBXProject "digitalclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEF868723A647BC00A50888 /* Debug */,
+				DEEF868823A647BC00A50888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEF868923A647BC00A50888 /* Build configuration list for PBXNativeTarget "digitalclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEF868A23A647BC00A50888 /* Debug */,
+				DEEF868B23A647BC00A50888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEF866D23A647BA00A50888 /* Project object */;
+}
